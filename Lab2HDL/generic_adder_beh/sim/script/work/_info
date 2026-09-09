@@ -10,10 +10,10 @@ z2
 cModel Technology
 Z0 dC:/Users/njp4108/Documents/HDL/Lab2HDL/generic_adder_beh/sim/script
 T_opt
-!s110 1788987590
-VTA4M>K?OEfPWmn<RfCaU91
+!s110 1788990769
+Vh5_28S?nXakFC8zl[FVE72
 04 16 4 work generic_adder_tb arch 1
-=1-b07b2521adcc-6aa1c8c6-e8-2338
+=1-b07b2521adcc-6aa1d531-a3-48c4
 o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
@@ -32,9 +32,9 @@ VZM:m22W6n_OU0[flII;@<2
 !s100 OOaH7j]OJo2FNLlk`2n1j2
 Z7 OL;C;2019.2;69
 31
-Z8 !s110 1788987589
+Z8 !s110 1788990768
 !i10b 1
-Z9 !s108 1788987589.000000
+Z9 !s108 1788990768.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_beh.vhd|
 Z11 !s107 ../../src/generic_adder_beh.vhd|
 !i113 0
@@ -60,7 +60,7 @@ R11
 R12
 R13
 Egeneric_adder_tb
-Z14 w1788987575
+Z14 w1788990757
 Z15 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R2
 R3
@@ -90,8 +90,8 @@ R4
 DEx4 work 16 generic_adder_tb 0 22 e9?:`H@Q`7ea6f0VdBTc93
 l37
 L13
-V=iSAQ[CzClZAD[P4MBZVz1
-!s100 0@:UU><6Bio[Ba^O0]zC53
+VhcC01cEg=knnMS>1]2M?I3
+!s100 9CDQ6oFH5[VZ2JFc3zUF;3
 R7
 31
 R8
