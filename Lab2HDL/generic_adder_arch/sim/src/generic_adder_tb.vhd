@@ -36,7 +36,7 @@ signal cin_guard           : std_logic_vector(NUM_BITS - 2 downto 0) := (others 
 
 begin
 
-uut: generic_adder_beh  
+uut: generic_adder_arch  
   generic map (
     bits => NUM_BITS
   )

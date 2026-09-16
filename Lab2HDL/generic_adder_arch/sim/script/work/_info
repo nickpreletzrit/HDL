@@ -12,93 +12,183 @@ Z0 dC:/Users/njp4108/Documents/HDL/Lab2HDL/generic_adder_beh/sim/script
 T_opt
 !s110 1788990769
 Vh5_28S?nXakFC8zl[FVE72
-04 16 4 work generic_adder_tb arch 1
+Z1 04 16 4 work generic_adder_tb arch 1
 =1-b07b2521adcc-6aa1d531-a3-48c4
-o-quiet -auto_acc_if_foreign -work work +acc
-tCvgOpt 0
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-OL;O;2019.2;69
-Egeneric_adder_beh
-Z1 w1788986657
-Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 OL;O;2019.2;69
 R0
-Z5 8../../src/generic_adder_beh.vhd
-Z6 F../../src/generic_adder_beh.vhd
+T_opt1
+!s110 1789588076
+V>M>Hi^F3IoCYni:LcIhm40
+R1
+=1-b07b2521adcc-6aaaf26b-37d-4118
+R2
+R3
+n@_opt1
+R4
+Efull_adder_single_bit_arch
+Z5 w1788986656
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 dC:/Users/njp4108/Documents/HDL/Lab2HDL/generic_adder_arch/sim/script
+Z9 8../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd
+Z10 F../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd
+l0
+L8
+ViAheATI5okmNF;[dMG5O00
+!s100 BEEX<>@;>^5C8<PhO2hHm1
+Z11 OL;C;2019.2;69
+31
+Z12 !s110 1789588075
+!i10b 1
+Z13 !s108 1789588075.000000
+Z14 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd|
+Z15 !s107 ../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd|
+!i113 0
+Z16 o-93 -work work
+Z17 tExplicit 1 CvgOpt 0
+Aarch
+R6
+R7
+DEx4 work 26 full_adder_single_bit_arch 0 22 iAheATI5okmNF;[dMG5O00
+l20
+L18
+VRWVVC7V[]S87n?Y[iH6[j0
+!s100 iB?;FMlJMkhKTg4X=[Log0
+R11
+31
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Egeneric_adder_arch
+R5
+Z18 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R6
+R7
+R8
+Z19 8../../src/generic_adder_arch.vhd
+Z20 F../../src/generic_adder_arch.vhd
+l0
+L9
+VnXLf5R>P?=BbQ]1L5SK_n0
+!s100 9I=@=83hLHZo@J>Ukzz3I3
+R11
+31
+R12
+!i10b 1
+R13
+Z21 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_arch.vhd|
+Z22 !s107 ../../src/generic_adder_arch.vhd|
+!i113 0
+R16
+R17
+Aarch
+R18
+R6
+R7
+DEx4 work 18 generic_adder_arch 0 22 nXLf5R>P?=BbQ]1L5SK_n0
+l36
+L22
+V?Ka<TbKPJ2U7AKLDEIgam3
+!s100 H3^dSOgb>d^JECAf:@a1Q3
+R11
+31
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 0
+R16
+R17
+Egeneric_adder_beh
+Z23 w1788986657
+R18
+R6
+R7
+R0
+Z24 8../../src/generic_adder_beh.vhd
+Z25 F../../src/generic_adder_beh.vhd
 l0
 L9
 VZM:m22W6n_OU0[flII;@<2
 !s100 OOaH7j]OJo2FNLlk`2n1j2
-Z7 OL;C;2019.2;69
+R11
 31
-Z8 !s110 1788990768
+Z26 !s110 1788990768
 !i10b 1
-Z9 !s108 1788990768.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_beh.vhd|
-Z11 !s107 ../../src/generic_adder_beh.vhd|
+Z27 !s108 1788990768.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_beh.vhd|
+Z29 !s107 ../../src/generic_adder_beh.vhd|
 !i113 0
-Z12 o-93 -work work
-Z13 tExplicit 1 CvgOpt 0
+R16
+R17
 Abeh
-R2
-R3
-R4
+R18
+R6
+R7
 DEx4 work 17 generic_adder_beh 0 22 ZM:m22W6n_OU0[flII;@<2
 l27
 L22
 VXiACzM[7Kd];V;iL`X2`K1
 !s100 J0QDzX5NX;aLCSO9EOMGC0
-R7
-31
-R8
-!i10b 1
-R9
-R10
 R11
+31
+R26
+!i10b 1
+R27
+R28
+R29
 !i113 0
-R12
-R13
+R16
+R17
 Egeneric_adder_tb
-Z14 w1788990757
-Z15 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-R2
-R3
-R4
-R0
-Z16 8../src/generic_adder_tb.vhd
-Z17 F../src/generic_adder_tb.vhd
+Z30 w1789588036
+Z31 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R18
+R6
+R7
+R8
+Z32 8../src/generic_adder_tb.vhd
+Z33 F../src/generic_adder_tb.vhd
 l0
 L10
 Ve9?:`H@Q`7ea6f0VdBTc93
 !s100 BA:7GkPR^dBaQ<>zdHe^j2
-R7
+R11
 31
-R8
-!i10b 1
-R9
-Z18 !s90 -reportprogress|300|-93|-work|work|../src/generic_adder_tb.vhd|
-Z19 !s107 ../src/generic_adder_tb.vhd|
-!i113 0
 R12
+!i10b 1
 R13
+Z34 !s90 -reportprogress|300|-93|-work|work|../src/generic_adder_tb.vhd|
+Z35 !s107 ../src/generic_adder_tb.vhd|
+!i113 0
+R16
+R17
 Aarch
-R15
-R2
-R3
-R4
+R31
+R18
+R6
+R7
 DEx4 work 16 generic_adder_tb 0 22 e9?:`H@Q`7ea6f0VdBTc93
 l37
 L13
-VhcC01cEg=knnMS>1]2M?I3
-!s100 9CDQ6oFH5[VZ2JFc3zUF;3
-R7
+VmoL75eQc7h5V6SFRZg=Vm2
+!s100 R1AP:mD9X3I;:20]Z7zZ71
+R11
 31
-R8
-!i10b 1
-R9
-R18
-R19
-!i113 0
 R12
+!i10b 1
 R13
+R34
+R35
+!i113 0
+R16
+R17
