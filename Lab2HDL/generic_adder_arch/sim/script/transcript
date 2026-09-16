@@ -1434,3 +1434,5 @@
 # ** Error: a:6 b:8 sum:6
 #    Time: 6 us  Iteration: 3  Instance: /generic_adder_tb
 # Causality operation skipped due to absence of debug database file
+# End time: 15:57:53 on Sep 16,2026, Elapsed time: 0:09:58
+# Errors: 708, Warnings: 3
