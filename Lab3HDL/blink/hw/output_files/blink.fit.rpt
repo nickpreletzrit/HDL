@@ -1,5 +1,5 @@
 Fitter report for blink
-Wed Sep 16 16:43:15 2026
+Wed Sep 30 16:28:34 2026
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +---------------------------------+-------------------------------------------------+
-; Fitter Status                   ; Successful - Wed Sep 16 16:43:15 2026           ;
+; Fitter Status                   ; Successful - Wed Sep 30 16:28:34 2026           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; blink                                           ;
 ; Top-level Entity Name           ; top                                             ;
@@ -70,7 +70,7 @@ refer to the applicable agreement for further details.
 ; Device                          ; 5CSEMA5F31C6                                    ;
 ; Timing Models                   ; Final                                           ;
 ; Logic utilization (in ALMs)     ; 20 / 32,070 ( < 1 % )                           ;
-; Total registers                 ; 37                                              ;
+; Total registers                 ; 32                                              ;
 ; Total pins                      ; 3 / 457 ( < 1 % )                               ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                           ;
@@ -155,30 +155,23 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.1%      ;
 ;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
-;     Processors 5-10        ;   0.1%      ;
+;     Processors 4-10        ;   0.1%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Netlist Optimizations                                                                                                                                                                                                      ;
-+-------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+-----------------------------------+------------------+-----------------------+
-; Node                    ; Action     ; Operation                                         ; Reason                     ; Node Port ; Node Port Name ; Destination Node                  ; Destination Port ; Destination Port Name ;
-+-------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+-----------------------------------+------------------+-----------------------+
-; clk~inputCLKENA0        ; Created    ; Placement                                         ; Fitter Periphery Placement ;           ;                ;                                   ;                  ;                       ;
-; blink:uut|count_sig[0]  ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[0]~DUPLICATE  ;                  ;                       ;
-; blink:uut|count_sig[1]  ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[1]~DUPLICATE  ;                  ;                       ;
-; blink:uut|count_sig[9]  ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[9]~DUPLICATE  ;                  ;                       ;
-; blink:uut|count_sig[11] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[11]~DUPLICATE ;                  ;                       ;
-; blink:uut|count_sig[13] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[13]~DUPLICATE ;                  ;                       ;
-; blink:uut|count_sig[14] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[14]~DUPLICATE ;                  ;                       ;
-; blink:uut|count_sig[15] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[15]~DUPLICATE ;                  ;                       ;
-; blink:uut|count_sig[16] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[16]~DUPLICATE ;                  ;                       ;
-; blink:uut|count_sig[17] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[17]~DUPLICATE ;                  ;                       ;
-; blink:uut|count_sig[18] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[18]~DUPLICATE ;                  ;                       ;
-+-------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+-----------------------------------+------------------+-----------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Netlist Optimizations                                                                                                                                                                                                    ;
++------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+----------------------------------+------------------+-----------------------+
+; Node                   ; Action     ; Operation                                         ; Reason                     ; Node Port ; Node Port Name ; Destination Node                 ; Destination Port ; Destination Port Name ;
++------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+----------------------------------+------------------+-----------------------+
+; clk~inputCLKENA0       ; Created    ; Placement                                         ; Fitter Periphery Placement ;           ;                ;                                  ;                  ;                       ;
+; blink:uut|count_sig[0] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[0]~DUPLICATE ;                  ;                       ;
+; blink:uut|count_sig[1] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[1]~DUPLICATE ;                  ;                       ;
+; blink:uut|count_sig[2] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[2]~DUPLICATE ;                  ;                       ;
+; blink:uut|count_sig[4] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; blink:uut|count_sig[4]~DUPLICATE ;                  ;                       ;
++------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+----------------------------------+------------------+-----------------------+
 
 
 +-------------------------------------------------------------------------------------------------+
@@ -187,8 +180,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]     ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+-------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                   ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 68 ) ; 0.00 % ( 0 / 68 )          ; 0.00 % ( 0 / 68 )        ;
-;     -- Achieved     ; 0.00 % ( 0 / 68 ) ; 0.00 % ( 0 / 68 )          ; 0.00 % ( 0 / 68 )        ;
+;     -- Requested    ; 0.00 % ( 0 / 70 ) ; 0.00 % ( 0 / 70 )          ; 0.00 % ( 0 / 70 )        ;
+;     -- Achieved     ; 0.00 % ( 0 / 70 ) ; 0.00 % ( 0 / 70 )          ; 0.00 % ( 0 / 70 )        ;
 ;                     ;                   ;                            ;                          ;
 ; Routing (by net)    ;                   ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )  ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -211,7 +204,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 68 )     ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 70 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -229,12 +222,12 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 +-------------------------------------------------------------+--------------------+-------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 20 / 32,070        ; < 1 % ;
 ; ALMs needed [=A-B+C]                                        ; 20                 ;       ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 21 / 32,070        ; < 1 % ;
-;         [a] ALMs used for LUT logic and registers           ; 14                 ;       ;
-;         [b] ALMs used for LUT logic                         ; 7                  ;       ;
-;         [c] ALMs used for registers                         ; 0                  ;       ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 20 / 32,070        ; < 1 % ;
+;         [a] ALMs used for LUT logic and registers           ; 12                 ;       ;
+;         [b] ALMs used for LUT logic                         ; 6                  ;       ;
+;         [c] ALMs used for registers                         ; 2                  ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                  ;       ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 1 / 32,070         ; < 1 % ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 0 / 32,070         ; 0 %   ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 32,070         ; 0 %   ;
 ;         [a] Due to location constrained logic               ; 0                  ;       ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                  ;       ;
@@ -243,25 +236,25 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 ;                                                             ;                    ;       ;
 ; Difficulty packing design                                   ; Low                ;       ;
 ;                                                             ;                    ;       ;
-; Total LABs:  partially or completely used                   ; 4 / 3,207          ; < 1 % ;
-;     -- Logic LABs                                           ; 4                  ;       ;
+; Total LABs:  partially or completely used                   ; 3 / 3,207          ; < 1 % ;
+;     -- Logic LABs                                           ; 3                  ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                  ;       ;
 ;                                                             ;                    ;       ;
-; Combinational ALUT usage for logic                          ; 34                 ;       ;
+; Combinational ALUT usage for logic                          ; 35                 ;       ;
 ;     -- 7 input functions                                    ; 0                  ;       ;
 ;     -- 6 input functions                                    ; 5                  ;       ;
 ;     -- 5 input functions                                    ; 1                  ;       ;
 ;     -- 4 input functions                                    ; 0                  ;       ;
-;     -- <=3 input functions                                  ; 28                 ;       ;
+;     -- <=3 input functions                                  ; 29                 ;       ;
 ; Combinational ALUT usage for route-throughs                 ; 0                  ;       ;
 ;                                                             ;                    ;       ;
-; Dedicated logic registers                                   ; 37                 ;       ;
+; Dedicated logic registers                                   ; 32                 ;       ;
 ;     -- By type:                                             ;                    ;       ;
-;         -- Primary logic registers                          ; 27 / 64,140        ; < 1 % ;
-;         -- Secondary logic registers                        ; 10 / 64,140        ; < 1 % ;
+;         -- Primary logic registers                          ; 28 / 64,140        ; < 1 % ;
+;         -- Secondary logic registers                        ; 4 / 64,140         ; < 1 % ;
 ;     -- By function:                                         ;                    ;       ;
-;         -- Design implementation registers                  ; 27                 ;       ;
-;         -- Routing optimization registers                   ; 10                 ;       ;
+;         -- Design implementation registers                  ; 28                 ;       ;
+;         -- Routing optimization registers                   ; 4                  ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
 ; I/O pins                                                    ; 3 / 457            ; < 1 % ;
@@ -317,11 +310,11 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 ; Impedance control blocks                                    ; 0 / 4              ; 0 %   ;
 ; Hard Memory Controllers                                     ; 0 / 2              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.0% / 0.0% / 0.0% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 0.1% / 0.1% / 0.1% ;       ;
-; Maximum fan-out                                             ; 37                 ;       ;
-; Highest non-global fan-out                                  ; 37                 ;       ;
-; Total fan-out                                               ; 240                ;       ;
-; Average fan-out                                             ; 3.08               ;       ;
+; Peak interconnect usage (total/H/V)                         ; 0.2% / 0.2% / 0.2% ;       ;
+; Maximum fan-out                                             ; 32                 ;       ;
+; Highest non-global fan-out                                  ; 32                 ;       ;
+; Total fan-out                                               ; 223                ;       ;
+; Average fan-out                                             ; 3.01               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -332,12 +325,12 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 +-------------------------------------------------------------+----------------------+--------------------------------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 20 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
 ; ALMs needed [=A-B+C]                                        ; 20                   ; 0                              ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 21 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
-;         [a] ALMs used for LUT logic and registers           ; 14                   ; 0                              ;
-;         [b] ALMs used for LUT logic                         ; 7                    ; 0                              ;
-;         [c] ALMs used for registers                         ; 0                    ; 0                              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 20 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
+;         [a] ALMs used for LUT logic and registers           ; 12                   ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 6                    ; 0                              ;
+;         [c] ALMs used for registers                         ; 2                    ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                    ; 0                              ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 1 / 32070 ( < 1 % )  ; 0 / 32070 ( 0 % )              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 0 / 32070 ( 0 % )    ; 0 / 32070 ( 0 % )              ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 32070 ( 0 % )    ; 0 / 32070 ( 0 % )              ;
 ;         [a] Due to location constrained logic               ; 0                    ; 0                              ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                    ; 0                              ;
@@ -346,16 +339,16 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 ;                                                             ;                      ;                                ;
 ; Difficulty packing design                                   ; Low                  ; Low                            ;
 ;                                                             ;                      ;                                ;
-; Total LABs:  partially or completely used                   ; 4 / 3207 ( < 1 % )   ; 0 / 3207 ( 0 % )               ;
-;     -- Logic LABs                                           ; 4                    ; 0                              ;
+; Total LABs:  partially or completely used                   ; 3 / 3207 ( < 1 % )   ; 0 / 3207 ( 0 % )               ;
+;     -- Logic LABs                                           ; 3                    ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
-; Combinational ALUT usage for logic                          ; 34                   ; 0                              ;
+; Combinational ALUT usage for logic                          ; 35                   ; 0                              ;
 ;     -- 7 input functions                                    ; 0                    ; 0                              ;
 ;     -- 6 input functions                                    ; 5                    ; 0                              ;
 ;     -- 5 input functions                                    ; 1                    ; 0                              ;
 ;     -- 4 input functions                                    ; 0                    ; 0                              ;
-;     -- <=3 input functions                                  ; 28                   ; 0                              ;
+;     -- <=3 input functions                                  ; 29                   ; 0                              ;
 ; Combinational ALUT usage for route-throughs                 ; 0                    ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
@@ -363,11 +356,11 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 ;                                                             ;                      ;                                ;
 ; Dedicated logic registers                                   ; 0                    ; 0                              ;
 ;     -- By type:                                             ;                      ;                                ;
-;         -- Primary logic registers                          ; 27 / 64140 ( < 1 % ) ; 0 / 64140 ( 0 % )              ;
-;         -- Secondary logic registers                        ; 10 / 64140 ( < 1 % ) ; 0 / 64140 ( 0 % )              ;
+;         -- Primary logic registers                          ; 28 / 64140 ( < 1 % ) ; 0 / 64140 ( 0 % )              ;
+;         -- Secondary logic registers                        ; 4 / 64140 ( < 1 % )  ; 0 / 64140 ( 0 % )              ;
 ;     -- By function:                                         ;                      ;                                ;
-;         -- Design implementation registers                  ; 27                   ; 0                              ;
-;         -- Routing optimization registers                   ; 10                   ; 0                              ;
+;         -- Design implementation registers                  ; 28                   ; 0                              ;
+;         -- Routing optimization registers                   ; 4                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ;                                                             ;                      ;                                ;
 ; Virtual pins                                                ; 0                    ; 0                              ;
@@ -384,8 +377,8 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 240                  ; 0                              ;
-;     -- Registered Connections                               ; 54                   ; 0                              ;
+;     -- Total Connections                                    ; 223                  ; 0                              ;
+;     -- Registered Connections                               ; 56                   ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
 ;     -- Top                                                  ; 0                    ; 0                              ;
@@ -417,8 +410,8 @@ The pin-out file can be found in C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
-; clk   ; AF14  ; 3B       ; 32           ; 0            ; 0            ; 37                    ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; reset ; AB12  ; 3A       ; 12           ; 0            ; 17           ; 37                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; clk   ; AF14  ; 3B       ; 32           ; 0            ; 0            ; 32                    ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; reset ; AB12  ; 3A       ; 12           ; 0            ; 17           ; 32                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
 
@@ -1374,8 +1367,8 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
-; |top                       ; 19.5 (0.5)           ; 20.0 (0.5)                       ; 0.5 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 34 (1)              ; 37 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 3    ; 0            ; |top                ; top         ; work         ;
-;    |blink:uut|             ; 19.0 (19.0)          ; 19.5 (19.5)                      ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 33 (33)             ; 37 (37)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |top|blink:uut      ; blink       ; work         ;
+; |top                       ; 20.0 (0.5)           ; 20.0 (0.5)                       ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 35 (1)              ; 32 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 3    ; 0            ; |top                ; top         ; work         ;
+;    |blink:uut|             ; 19.5 (19.5)          ; 19.5 (19.5)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 34 (34)             ; 32 (32)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |top|blink:uut      ; blink       ; work         ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1391,51 +1384,46 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
-+------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                         ;
-+------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                      ; Pad To Core Index ; Setting ;
-+------------------------------------------+-------------------+---------+
-; clk                                      ;                   ;         ;
-; reset                                    ;                   ;         ;
-;      - blink:uut|output_sig              ; 0                 ; 0       ;
-;      - blink:uut|count_sig[25]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[24]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[23]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[22]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[21]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[20]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[19]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[18]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[17]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[16]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[15]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[14]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[13]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[12]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[11]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[10]           ; 0                 ; 0       ;
-;      - blink:uut|count_sig[9]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[8]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[7]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[6]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[5]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[4]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[3]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[2]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[1]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[0]            ; 0                 ; 0       ;
-;      - blink:uut|count_sig[1]~DUPLICATE  ; 0                 ; 0       ;
-;      - blink:uut|count_sig[0]~DUPLICATE  ; 0                 ; 0       ;
-;      - blink:uut|count_sig[13]~DUPLICATE ; 0                 ; 0       ;
-;      - blink:uut|count_sig[11]~DUPLICATE ; 0                 ; 0       ;
-;      - blink:uut|count_sig[9]~DUPLICATE  ; 0                 ; 0       ;
-;      - blink:uut|count_sig[18]~DUPLICATE ; 0                 ; 0       ;
-;      - blink:uut|count_sig[17]~DUPLICATE ; 0                 ; 0       ;
-;      - blink:uut|count_sig[16]~DUPLICATE ; 0                 ; 0       ;
-;      - blink:uut|count_sig[15]~DUPLICATE ; 0                 ; 0       ;
-;      - blink:uut|count_sig[14]~DUPLICATE ; 0                 ; 0       ;
-+------------------------------------------+-------------------+---------+
++-----------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                        ;
++-----------------------------------------+-------------------+---------+
+; Source Pin / Fanout                     ; Pad To Core Index ; Setting ;
++-----------------------------------------+-------------------+---------+
+; clk                                     ;                   ;         ;
+; reset                                   ;                   ;         ;
+;      - blink:uut|output_sig             ; 0                 ; 0       ;
+;      - blink:uut|count_sig[26]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[25]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[24]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[23]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[22]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[21]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[20]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[19]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[18]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[17]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[16]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[15]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[14]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[13]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[12]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[11]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[10]          ; 0                 ; 0       ;
+;      - blink:uut|count_sig[9]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[8]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[7]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[6]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[5]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[4]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[3]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[2]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[1]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[0]           ; 0                 ; 0       ;
+;      - blink:uut|count_sig[2]~DUPLICATE ; 0                 ; 0       ;
+;      - blink:uut|count_sig[1]~DUPLICATE ; 0                 ; 0       ;
+;      - blink:uut|count_sig[0]~DUPLICATE ; 0                 ; 0       ;
+;      - blink:uut|count_sig[4]~DUPLICATE ; 0                 ; 0       ;
++-----------------------------------------+-------------------+---------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1443,9 +1431,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name               ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +--------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; blink:uut|Equal0~5 ; LABCELL_X45_Y1_N54 ; 36      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; clk                ; PIN_AF14           ; 37      ; Clock        ; yes    ; Global Clock         ; GCLK6            ; --                        ;
-; reset              ; PIN_AB12           ; 37      ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; blink:uut|Equal0~5 ; LABCELL_X45_Y2_N12 ; 31      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; clk                ; PIN_AF14           ; 32      ; Clock        ; yes    ; Global Clock         ; GCLK6            ; --                        ;
+; reset              ; PIN_AB12           ; 32      ; Async. clear ; no     ; --                   ; --               ; --                        ;
 +--------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1454,7 +1442,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------+----------------------+------------------+---------------------------+
 ; Name ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------+----------+---------+----------------------+------------------+---------------------------+
-; clk  ; PIN_AF14 ; 37      ; Global Clock         ; GCLK6            ; --                        ;
+; clk  ; PIN_AF14 ; 32      ; Global Clock         ; GCLK6            ; --                        ;
 +------+----------+---------+----------------------+------------------+---------------------------+
 
 
@@ -1463,14 +1451,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+------------------------+
 ; Routing Resource Type                       ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Block interconnects                         ; 32 / 289,320 ( < 1 % ) ;
-; C12 interconnects                           ; 0 / 13,420 ( 0 % )     ;
-; C2 interconnects                            ; 5 / 119,108 ( < 1 % )  ;
-; C4 interconnects                            ; 3 / 56,300 ( < 1 % )   ;
+; Block interconnects                         ; 35 / 289,320 ( < 1 % ) ;
+; C12 interconnects                           ; 1 / 13,420 ( < 1 % )   ;
+; C2 interconnects                            ; 18 / 119,108 ( < 1 % ) ;
+; C4 interconnects                            ; 2 / 56,300 ( < 1 % )   ;
 ; DQS bus muxes                               ; 0 / 25 ( 0 % )         ;
 ; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )         ;
 ; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )         ;
-; Direct links                                ; 18 / 289,320 ( < 1 % ) ;
+; Direct links                                ; 10 / 289,320 ( < 1 % ) ;
 ; Global clocks                               ; 1 / 16 ( 6 % )         ;
 ; HPS SDRAM PLL inputs                        ; 0 / 1 ( 0 % )          ;
 ; HPS SDRAM PLL outputs                       ; 0 / 1 ( 0 % )          ;
@@ -1526,12 +1514,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; HPS_INTERFACE_TPIU_TRACE_INPUTs             ; 0 / 2 ( 0 % )          ;
 ; HPS_INTERFACE_TPIU_TRACE_OUTPUTs            ; 0 / 33 ( 0 % )         ;
 ; Horizontal periphery clocks                 ; 0 / 72 ( 0 % )         ;
-; Local interconnects                         ; 24 / 84,580 ( < 1 % )  ;
+; Local interconnects                         ; 22 / 84,580 ( < 1 % )  ;
 ; Quadrant clocks                             ; 0 / 66 ( 0 % )         ;
-; R14 interconnects                           ; 1 / 12,676 ( < 1 % )   ;
-; R14/C12 interconnect drivers                ; 1 / 20,720 ( < 1 % )   ;
-; R3 interconnects                            ; 5 / 130,992 ( < 1 % )  ;
-; R6 interconnects                            ; 13 / 266,960 ( < 1 % ) ;
+; R14 interconnects                           ; 2 / 12,676 ( < 1 % )   ;
+; R14/C12 interconnect drivers                ; 2 / 20,720 ( < 1 % )   ;
+; R3 interconnects                            ; 10 / 130,992 ( < 1 % ) ;
+; R6 interconnects                            ; 18 / 266,960 ( < 1 % ) ;
 ; Spine clocks                                ; 1 / 360 ( < 1 % )      ;
 ; Wire stub REs                               ; 0 / 15,858 ( 0 % )     ;
 +---------------------------------------------+------------------------+
@@ -1659,20 +1647,23 @@ This will disable optimization of problematic paths and expose them for further 
 +-------------------------+----------------------+-------------------+
 ; Source Register         ; Destination Register ; Delay Added in ns ;
 +-------------------------+----------------------+-------------------+
-; blink:uut|count_sig[25] ; blink:uut|output_sig ; 0.130             ;
-; blink:uut|count_sig[24] ; blink:uut|output_sig ; 0.130             ;
-; blink:uut|count_sig[23] ; blink:uut|output_sig ; 0.130             ;
-; blink:uut|count_sig[22] ; blink:uut|output_sig ; 0.130             ;
-; blink:uut|count_sig[21] ; blink:uut|output_sig ; 0.130             ;
-; blink:uut|count_sig[20] ; blink:uut|output_sig ; 0.130             ;
-; blink:uut|count_sig[13] ; blink:uut|output_sig ; 0.102             ;
-; blink:uut|count_sig[12] ; blink:uut|output_sig ; 0.102             ;
-; blink:uut|count_sig[11] ; blink:uut|output_sig ; 0.102             ;
-; blink:uut|count_sig[10] ; blink:uut|output_sig ; 0.102             ;
-; blink:uut|count_sig[9]  ; blink:uut|output_sig ; 0.102             ;
-; blink:uut|count_sig[8]  ; blink:uut|output_sig ; 0.102             ;
+; blink:uut|count_sig[8]  ; blink:uut|output_sig ; 0.296             ;
+; blink:uut|count_sig[7]  ; blink:uut|output_sig ; 0.296             ;
+; blink:uut|count_sig[6]  ; blink:uut|output_sig ; 0.296             ;
+; blink:uut|count_sig[5]  ; blink:uut|output_sig ; 0.296             ;
+; blink:uut|count_sig[4]  ; blink:uut|output_sig ; 0.296             ;
+; blink:uut|count_sig[3]  ; blink:uut|output_sig ; 0.296             ;
+; blink:uut|count_sig[14] ; blink:uut|output_sig ; 0.266             ;
+; blink:uut|count_sig[13] ; blink:uut|output_sig ; 0.266             ;
+; blink:uut|count_sig[12] ; blink:uut|output_sig ; 0.266             ;
+; blink:uut|count_sig[11] ; blink:uut|output_sig ; 0.266             ;
+; blink:uut|count_sig[10] ; blink:uut|output_sig ; 0.266             ;
+; blink:uut|count_sig[9]  ; blink:uut|output_sig ; 0.266             ;
+; blink:uut|count_sig[1]  ; blink:uut|output_sig ; 0.182             ;
+; blink:uut|count_sig[0]  ; blink:uut|output_sig ; 0.182             ;
+; blink:uut|count_sig[2]  ; blink:uut|output_sig ; 0.182             ;
 +-------------------------+----------------------+-------------------+
-Note: This table only shows the top 12 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 15 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1687,7 +1678,7 @@ Info (171003): Fitter is performing an Auto Fit compilation, which may decrease 
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
 Info (184020): Starting Fitter periphery placement operations
 Info (11191): Automatically promoted 1 clock (1 global)
-    Info (11162): clk~inputCLKENA0 with 27 fanout uses global clock CLKCTRL_G6
+    Info (11162): clk~inputCLKENA0 with 28 fanout uses global clock CLKCTRL_G6
 Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
 Info (176233): Starting register packing
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'blink.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
@@ -1710,7 +1701,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.27 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.28 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1718,9 +1709,9 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file C:/Users/njp4108/Documents/HDL/Lab3HDL/blink/hw/output_files/blink.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 7149 megabytes
-    Info: Processing ended: Wed Sep 16 16:43:16 2026
-    Info: Elapsed time: 00:00:28
+    Info: Peak virtual memory: 7140 megabytes
+    Info: Processing ended: Wed Sep 30 16:28:34 2026
+    Info: Elapsed time: 00:00:27
     Info: Total CPU time (on all processors): 00:01:36
 
 

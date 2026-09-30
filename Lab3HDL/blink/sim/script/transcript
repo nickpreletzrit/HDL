@@ -12,18 +12,19 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:38:16 on Sep 16,2026
+# Start time: 16:13:19 on Sep 30,2026
 # vcom -reportprogress 300 -93 -work work ../../src/blink.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity blink
 # -- Compiling architecture beh of blink
-# End time: 16:38:16 on Sep 16,2026, Elapsed time: 0:00:00
+# End time: 16:13:19 on Sep 30,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:38:16 on Sep 16,2026
+# Start time: 16:13:19 on Sep 30,2026
 # vcom -reportprogress 300 -93 -work work ../src/blink_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -31,11 +32,11 @@
 # -- Compiling entity blink_tb
 # -- Compiling architecture arch of blink_tb
 # ** Warning: ../src/blink_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 16:38:16 on Sep 16,2026, Elapsed time: 0:00:00
+# End time: 16:13:19 on Sep 30,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vsim -voptargs="+acc" blink_tb 
-# Start time: 16:38:16 on Sep 16,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 16:13:19 on Sep 30,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -47,5 +48,3 @@
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# End time: 16:42:23 on Sep 16,2026, Elapsed time: 0:04:07
-# Errors: 0, Warnings: 0

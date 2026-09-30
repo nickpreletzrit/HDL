@@ -12,7 +12,7 @@ architecture arch of blink_tb is
 
 component blink is
   generic (
-    max_count       : integer := 25000000
+    max_count       : integer := 50000000
   );
   port (
     clk             : in  std_logic; 

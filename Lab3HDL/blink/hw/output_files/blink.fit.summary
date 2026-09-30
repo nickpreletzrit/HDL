@@ -1,4 +1,4 @@
-Fitter Status : Successful - Wed Sep 16 16:43:15 2026
+Fitter Status : Successful - Wed Sep 30 16:28:34 2026
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : blink
 Top-level Entity Name : top
@@ -6,7 +6,7 @@ Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
 Logic utilization (in ALMs) : 20 / 32,070 ( < 1 % )
-Total registers : 37
+Total registers : 32
 Total pins : 3 / 457 ( < 1 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 4,065,280 ( 0 % )
