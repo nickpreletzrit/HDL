@@ -61,3 +61,5 @@
 #    Time: 0 ns  Iteration: 0  Instance: /seven_seg_tb
 # ** Note: ****************** sequential testbench stop ****************
 #    Time: 480 ns  Iteration: 0  Instance: /seven_seg_tb
+# End time: 17:03:22 on Oct 07,2026, Elapsed time: 0:51:04
+# Errors: 0, Warnings: 2

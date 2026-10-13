@@ -8,7 +8,6 @@ use ieee.std_logic_1164.all;
 entity seven_seg is
   port (
     clk             : in  std_logic; 
-    reset           : in  std_logic;
 	bcd 			: in std_logic_vector(3 downto 0);
     seven_seg_out          : out std_logic_vector(6 downto 0)
   );  
