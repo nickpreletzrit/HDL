@@ -6,9 +6,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity counter_top is
-	generic (
-		max_count	: integer := 49999999
-		);
+	
   port (
     clk             : in  std_logic; 
     reset           : in  std_logic;

@@ -1,0 +1,141 @@
+-------------------------------------------------------------------------------
+-- nicky p
+--  addOR top
+-------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity addOR_top is
+  port (
+    clk             : in  std_logic; 
+    reset           : in  std_logic;
+    a     	        : in  std_logic;
+    b      	        : in  std_logic;
+    hex_a           : out  std_logic;
+    hex_b           : out  std_logic;
+    hex_sumOR       : out  std_logic;
+  );
+end addOR_top;
+
+architecture beh of addOR_top is
+
+signal a_sync, b_sync, sumOR	: std_logic_vector(3 downto 0);
+signal add_sync, sub_sync		: std_logic; 
+
+
+component seven_seg is
+  port (
+    clk             : in  std_logic; 
+    reset           : in  std_logic;
+	bcd 			: in std_logic_vector(3 downto 0);
+    seven_seg_out          : out std_logic_vector(6 downto 0)
+  );  
+end component;  
+
+component generic_addOR is
+	generic (
+		bits : integer := 4
+	);
+	port (
+		clk   : in  std_logic;
+		reset : in  std_logic;
+		a     : in  std_logic_vector(bits-1 downto 0);
+		b     : in  std_logic_vector(bits-1 downto 0);
+		add   : in  std_logic;
+		sub   : in  std_logic;
+		sum   : out std_logic_vector(bits-1 downto 0)
+end component;
+
+component synchronizer_3bit is
+
+	port (
+		clk               : in std_logic;
+		reset             : in std_logic;
+		async_in          : in std_logic_vector(2 downto 0);
+		sync_out          : out std_logic_vector(2 downto 0)
+	);  
+end component;
+
+
+begin
+
+  HEX_A : seven_seg  
+
+  port map(
+    clk       => clk,
+    reset     => reset,
+	bcd		  => a_sync,
+    seven_seg_out    => hex_a
+  );
+  
+  HEX_B : seven_seg  
+
+  port map(
+    clk       => clk,
+    reset     => reset,
+	bcd		  => b_sync,
+    seven_seg_out    => hex_b
+  );
+  
+  HEX_SUMOR : seven_seg  
+
+  port map(
+    clk       => clk,
+    reset     => reset,
+	bcd		  => sumOR,
+    seven_seg_out    => hex_sumOR
+  );
+  
+  u_sync_A: synchronizer_3bit 
+  
+  port map(
+    clk       => clk,
+    reset     => reset,
+	async_in  => a,
+    sync_out    => a_sync 
+  );
+  
+   u_sync_B: synchronizer_3bit 
+  
+  port map(
+    clk       => clk,
+    reset     => reset,
+	async_in  => b,
+    sync_out    => b_sync 
+  );
+  
+    u_sync_ADD: synchronizer_3bit 
+  
+  port map(
+    clk       => clk,
+    reset     => reset,
+	async_in  => add,
+    sync_out    => add_sync 
+  );
+  
+    u_sync_SUB: synchronizer_3bit 
+  
+  port map(
+    clk       => clk,
+    reset     => reset,
+	async_in  => sub,
+    sync_out    => sub_sync
+  );
+  
+    
+  u_generic_addOR: generic_addOR 
+
+  port map(
+	clk       => clk,
+    reset     => reset,
+	a 		  => '0' & a_sync,
+	b 		  => '0' & b_sync,
+	add 	  => add_sync,
+	sub 	  => sub_sync,
+    sum    => sumOR 
+  );
+ 
+  
+  
+  
+end beh;
