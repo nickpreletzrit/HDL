@@ -13,14 +13,18 @@ radix define States {
     -default default
 }
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /counter_tb/uut/max_count
-add wave -noupdate /counter_tb/uut/clk
-add wave -noupdate /counter_tb/uut/reset
-add wave -noupdate /counter_tb/uut/seven_seg_out
-add wave -noupdate /counter_tb/uut/enable
-add wave -noupdate /counter_tb/uut/sum
-add wave -noupdate /counter_tb/uut/sum_sig
-add wave -noupdate /counter_tb/uut/one
+
+
+add wave -noupdate /addOR_tb/uut/a
+add wave -noupdate /addOR_tb/uut/b
+add wave -noupdate /addOR_tb/uut/add
+add wave -noupdate /addOR_tb/uut/sub
+add wave -noupdate /addOR_tb/uut/hex_a
+add wave -noupdate /addOR_tb/uut/hex_b
+add wave -noupdate /addOR_tb/uut/hex_sumOR
+add wave -noupdate /addOR_tb/uut/clk
+add wave -noupdate /addOR_tb/uut/reset
+
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {50 ns} 0}
 quietly wave cursor active 1

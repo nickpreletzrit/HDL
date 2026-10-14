@@ -2,7 +2,7 @@
 # Quartus II compile script for DE1-SoC  board
 
 # 1] name your project here
-set project_name "counter"
+set project_name "addOR"
 
 file delete -force project
 file delete -force output_files
@@ -12,14 +12,16 @@ load_package flow
 project_new $project_name
 set_global_assignment -name FAMILY Cyclone
 set_global_assignment -name DEVICE 5CSEMA5F31C6 
-set_global_assignment -name TOP_LEVEL_ENTITY counter_top
+set_global_assignment -name TOP_LEVEL_ENTITY addOR_top
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY ../output_files
 
 # 2] include your relative path files here
-set_global_assignment -name VHDL_FILE ../../src/counter_top.vhd
-set_global_assignment -name VHDL_FILE ../../src/generic_adder.vhd
-set_global_assignment -name VHDL_FILE ../../src/generic_counter.vhd
+set_global_assignment -name VHDL_FILE ../../src/synchronizer_3bit.vhd
+set_global_assignment -name VHDL_FILE ../../src/synchronizer_1bit.vhd
+set_global_assignment -name VHDL_FILE ../../src/generic_addOR.vhd
 set_global_assignment -name VHDL_FILE ../../src/seven_seg.vhd
+set_global_assignment -name VHDL_FILE ../../src/falling_edge_detector.vhd
+set_global_assignment -name VHDL_FILE ../../src/addOR_top.vhd
 
 
 

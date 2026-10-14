@@ -9,17 +9,20 @@ entity addOR_top is
   port (
     clk             : in  std_logic; 
     reset           : in  std_logic;
-    a     	        : in  std_logic;
-    b      	        : in  std_logic;
-    hex_a           : out  std_logic;
-    hex_b           : out  std_logic;
-    hex_sumOR       : out  std_logic;
+    add             : in  std_logic;
+    sub             : in  std_logic;
+    a     	        : in  std_logic_vector(2 downto 0);
+    b      	        : in  std_logic_vector(2 downto 0);
+    hex_a           : out  std_logic_vector(6 downto 0);
+    hex_b           : out  std_logic_vector(6 downto 0);
+    hex_sumOR       : out  std_logic_vector(6 downto 0)
   );
 end addOR_top;
 
 architecture beh of addOR_top is
 
-signal a_sync, b_sync, sumOR	: std_logic_vector(3 downto 0);
+signal sumOR	: std_logic_vector(3 downto 0);
+signal a_sync, b_sync	: std_logic_vector(3 downto 0);
 signal add_sync, sub_sync		: std_logic; 
 
 
@@ -34,7 +37,7 @@ end component;
 
 component generic_addOR is
 	generic (
-		bits : integer := 4
+		bits : integer := 3
 	);
 	port (
 		clk   : in  std_logic;
@@ -43,7 +46,8 @@ component generic_addOR is
 		b     : in  std_logic_vector(bits-1 downto 0);
 		add   : in  std_logic;
 		sub   : in  std_logic;
-		sum   : out std_logic_vector(bits-1 downto 0)
+		sum   : out std_logic_vector(bits downto 0)
+	);
 end component;
 
 component synchronizer_3bit is
@@ -52,14 +56,23 @@ component synchronizer_3bit is
 		clk               : in std_logic;
 		reset             : in std_logic;
 		async_in          : in std_logic_vector(2 downto 0);
-		sync_out          : out std_logic_vector(2 downto 0)
+		sync_out          : out std_logic_vector(3 downto 0)
 	);  
 end component;
 
+component synchronizer_1bit is
+
+	port (
+		clk               : in std_logic;
+		reset             : in std_logic;
+		async_in          : in std_logic;
+		sync_out          : out std_logic
+	);  
+end component;
 
 begin
 
-  HEX_A : seven_seg  
+  U_HEX_A : seven_seg  
 
   port map(
     clk       => clk,
@@ -68,7 +81,7 @@ begin
     seven_seg_out    => hex_a
   );
   
-  HEX_B : seven_seg  
+  U_HEX_B : seven_seg  
 
   port map(
     clk       => clk,
@@ -77,7 +90,7 @@ begin
     seven_seg_out    => hex_b
   );
   
-  HEX_SUMOR : seven_seg  
+  U_HEX_SUMOR : seven_seg  
 
   port map(
     clk       => clk,
@@ -104,7 +117,7 @@ begin
     sync_out    => b_sync 
   );
   
-    u_sync_ADD: synchronizer_3bit 
+    u_sync_ADD: synchronizer_1bit 
   
   port map(
     clk       => clk,
@@ -113,7 +126,7 @@ begin
     sync_out    => add_sync 
   );
   
-    u_sync_SUB: synchronizer_3bit 
+    u_sync_SUB: synchronizer_1bit 
   
   port map(
     clk       => clk,
@@ -128,8 +141,8 @@ begin
   port map(
 	clk       => clk,
     reset     => reset,
-	a 		  => '0' & a_sync,
-	b 		  => '0' & b_sync,
+	a 		  => a_sync(2 downto 0),
+	b 		  => b_sync(2 downto 0),
 	add 	  => add_sync,
 	sub 	  => sub_sync,
     sum    => sumOR 

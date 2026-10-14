@@ -10,7 +10,7 @@ entity synchronizer_3bit is
     clk               : in std_logic;
     reset             : in std_logic;
     async_in          : in std_logic_vector(2 downto 0);
-    sync_out          : out std_logic_vector(2 downto 0)
+    sync_out          : out std_logic_vector(3 downto 0)
   );
 end synchronizer_3bit;
 
@@ -31,5 +31,5 @@ double_flop :process(reset,clk,async_in)
     end if;
 end process;
 
-sync_out <= flop2;
+sync_out <= '0' & flop2;
 end beh; 

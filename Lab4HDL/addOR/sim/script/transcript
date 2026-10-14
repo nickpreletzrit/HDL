@@ -12,171 +12,657 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do sim.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:27:00 on Oct 07,2026
+# Start time: 17:24:46 on Oct 14,2026
 # vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity seven_seg
 # -- Compiling architecture beh of seven_seg
-# End time: 17:27:00 on Oct 07,2026, Elapsed time: 0:00:00
+# End time: 17:24:46 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:27:00 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../../src/generic_adder.vhd 
+# Start time: 17:24:46 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:24:46 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:24:46 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:24:46 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:24:46 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:24:46 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:24:46 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:24:47 on Oct 14,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:24:47 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity generic_adder
-# -- Compiling architecture beh of generic_adder
-# End time: 17:27:00 on Oct 07,2026, Elapsed time: 0:00:00
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:24:47 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:27:00 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../../src/generic_counter.vhd 
+# Start time: 17:24:47 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity generic_counter
-# -- Compiling architecture beh of generic_counter
-# End time: 17:27:00 on Oct 07,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:27:01 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../../src/counter_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity counter_top
-# -- Compiling architecture beh of counter_top
-# End time: 17:27:01 on Oct 07,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:27:01 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../src/counter_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity counter_tb
-# -- Compiling architecture arch of counter_tb
-# ** Warning: ../src/counter_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 17:27:01 on Oct 07,2026, Elapsed time: 0:00:00
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:24:47 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# vsim -voptargs="+acc" work.counter_tb 
-# Start time: 17:27:01 on Oct 07,2026
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:24:47 on Oct 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): ../../src/addOR_top.vhd(109): (vopt-1272) Length of sync_out is 3; length of component port is 4.
+# ** Error (suppressible): ../../src/addOR_top.vhd(118): (vopt-1272) Length of sync_out is 3; length of component port is 4.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 12
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:28:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:28:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:12 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:28:12 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:12 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:28:12 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:12 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:28:12 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:12 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:28:12 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:28:12 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:28:12 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:24:47 on Oct 14,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.counter_tb(arch)#1
-# Loading work.counter_top(beh)#1
-# Loading work.seven_seg(beh)#1
-# Loading work.generic_counter(beh)#1
 # Loading ieee.numeric_std(body)
-# Loading work.generic_adder(beh)#1
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
-#           Attempting to use alternate WLF file "./wlft0r1k0z".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft0r1k0z
-# ** Error: (vish-4014) No objects found matching '/counter_tb/seven_seg_out'.
-# Executing ONERROR command at macro ./wave.do line 20
-add wave -position insertpoint sim:/counter_tb/uut/*
-add wave  \
-sim:/counter_tb/uut/max_count \
-sim:/counter_tb/uut/clk \
-sim:/counter_tb/uut/reset \
-sim:/counter_tb/uut/seven_seg_out \
-sim:/counter_tb/uut/enable \
-sim:/counter_tb/uut/sum \
-sim:/counter_tb/uut/sum_sig \
-sim:/counter_tb/uut/one
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/njp4108/Documents/HDL/Lab3HDL/counter/sim/script/wave.do
-
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (4) for port "/addor_tb/uut/u_generic_addOR/a".
+#    Time: 0 ns  Iteration: 0  Instance: /addor_tb/uut/u_generic_addOR File: ../../src/generic_addOR.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 12
 do sim.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt3".  Locker is njp4108@GOL-1360-03.
-# ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:32:42 on Oct 07,2026
+# Start time: 17:30:45 on Oct 14,2026
 # vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity seven_seg
 # -- Compiling architecture beh of seven_seg
-# End time: 17:32:42 on Oct 07,2026, Elapsed time: 0:00:00
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:32:42 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../../src/generic_adder.vhd 
+# Start time: 17:30:45 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:30:45 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:30:45 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:30:45 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:30:45 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity generic_adder
-# -- Compiling architecture beh of generic_adder
-# End time: 17:32:42 on Oct 07,2026, Elapsed time: 0:00:00
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:32:42 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../../src/generic_counter.vhd 
+# Start time: 17:30:45 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity generic_counter
-# -- Compiling architecture beh of generic_counter
-# End time: 17:32:42 on Oct 07,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:32:42 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../../src/counter_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity counter_top
-# -- Compiling architecture beh of counter_top
-# End time: 17:32:42 on Oct 07,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 17:32:42 on Oct 07,2026
-# vcom -reportprogress 300 -93 -work work ../src/counter_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity counter_tb
-# -- Compiling architecture arch of counter_tb
-# ** Warning: ../src/counter_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 17:32:42 on Oct 07,2026, Elapsed time: 0:00:00
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:30:45 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-# End time: 17:32:43 on Oct 07,2026, Elapsed time: 0:05:42
-# Errors: 7, Warnings: 7
-# vsim -voptargs="+acc" work.counter_tb 
-# Start time: 17:32:43 on Oct 07,2026
-# ** Note: (vsim-8009) Loading existing optimized design _opt3
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:24:47 on Oct 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.counter_tb(arch)#1
-# Loading work.counter_top(beh)#1
-# Loading work.seven_seg(beh)#1
-# Loading work.generic_counter(beh)#1
 # Loading ieee.numeric_std(body)
-# Loading work.generic_adder(beh)#1
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
+# ** Fatal: (vsim-3348) Port length (2) does not match actual length (4) for port "/addor_tb/uut/u_generic_addOR/sum".
+#    Time: 0 ns  Iteration: 0  Instance: /addor_tb/uut/u_generic_addOR File: ../../src/generic_addOR.vhd Line: 16
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 12
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:32:30 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:32:30 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:24:47 on Oct 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (4) for port "/addor_tb/uut/u_generic_addOR/a".
+#    Time: 0 ns  Iteration: 0  Instance: /addor_tb/uut/u_generic_addOR File: ../../src/generic_addOR.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 12
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:34:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:34:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:34:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:34:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:34:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:34:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:34:11 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:34:11 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:24:47 on Oct 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (4) for port "/addor_tb/uut/u_generic_addOR/a".
+#    Time: 0 ns  Iteration: 0  Instance: /addor_tb/uut/u_generic_addOR File: ../../src/generic_addOR.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 12
+quit -sim
+vdel -all -lib work
+vlib work
+vmap work work
+# End time: 17:35:06 on Oct 14,2026, Elapsed time: 0:10:19
+# Errors: 6, Warnings: 0
+# Model Technology ModelSim SE-64 vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work work 
+# Modifying C:/Software/ModelSim/win64/../modelsim.ini
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:35:10 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:35:10 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:35:10 on Oct 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (4) for port "/addor_tb/uut/u_generic_addOR/a".
+#    Time: 0 ns  Iteration: 0  Instance: /addor_tb/uut/u_generic_addOR File: ../../src/generic_addOR.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 12
+# Error opening C:/Users/njp4108/Documents/HDL/Lab4HDL/addOR/sim/script/(vsim-3348) Port length (3) does not match actual length 
+# Path name 'C:/Users/njp4108/Documents/HDL/Lab4HDL/addOR/sim/script/(vsim-3348) Port length (3) does not match actual length ' doesn't exist.
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:21 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:36:21 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:21 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:36:21 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:22 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:36:22 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:22 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:36:22 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:22 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:36:22 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:22 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:36:22 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:36:22 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:36:22 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:35:10 on Oct 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
@@ -185,6 +671,82 @@ do sim.do
 # 
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
-#           Attempting to use alternate WLF file "./wlftt92gtb".
+#           Attempting to use alternate WLF file "./wlft7d68x3".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftt92gtb
+#           Using alternate file: ./wlft7d68x3
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:52 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:53 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_3bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_3bit
+# -- Compiling architecture beh of synchronizer_3bit
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:53 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:53 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:53 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/addOR_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addOR_top
+# -- Compiling architecture beh of addOR_top
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:53 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../../src/generic_addOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity generic_addOR
+# -- Compiling architecture beh of generic_addOR
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:42:53 on Oct 14,2026
+# vcom -reportprogress 300 -93 -work work ../src/addOR_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity addOR_tb
+# -- Compiling architecture arch of addOR_tb
+# ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
