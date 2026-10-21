@@ -750,3 +750,31 @@ do sim.do
 # ** Warning: ../src/addOR_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
+# End time: 17:42:53 on Oct 14,2026, Elapsed time: 0:07:43
+# Errors: 8, Warnings: 4
+# vsim -voptargs="+acc" work.addOR_tb 
+# Start time: 17:42:54 on Oct 14,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.addor_tb(arch)#1
+# Loading work.addor_top(beh)#1
+# Loading work.seven_seg(beh)#1
+# Loading work.synchronizer_3bit(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.generic_addor(beh)#1
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlftc91qf9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc91qf9
+# End time: 17:54:01 on Oct 14,2026, Elapsed time: 0:11:07
+# Errors: 6, Warnings: 2
