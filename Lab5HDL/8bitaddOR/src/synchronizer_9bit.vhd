@@ -16,15 +16,15 @@ end synchronizer_9bit;
 
 architecture beh of synchronizer_9bit is
 -- signal declarations
-signal flop1     : std_logic_vector(7 downto 0);
-signal flop2     : std_logic_vector(7 downto 0);
+signal flop1     : std_logic_vector(8 downto 0);
+signal flop2     : std_logic_vector(8 downto 0);
 
 begin 
 double_flop :process(reset,clk,async_in)
   begin
     if reset = '1' then
-      flop1 <= "00000000";   
-      flop2 <= "00000000";	
+      flop1 <= "000000000";   
+      flop2 <= "000000000";	
     elsif rising_edge(clk) then
       flop1 <= async_in;
       flop2 <= flop1;

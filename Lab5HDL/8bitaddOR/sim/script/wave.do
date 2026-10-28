@@ -15,15 +15,22 @@ radix define States {
 quietly WaveActivateNextPane {} 0
 
 
-add wave -noupdate /addOR_tb/uut/a
-add wave -noupdate /addOR_tb/uut/b
-add wave -noupdate /addOR_tb/uut/add
-add wave -noupdate /addOR_tb/uut/sub
-add wave -noupdate /addOR_tb/uut/hex_a
-add wave -noupdate /addOR_tb/uut/hex_b
-add wave -noupdate /addOR_tb/uut/hex_sumOR
-add wave -noupdate /addOR_tb/uut/clk
-add wave -noupdate /addOR_tb/uut/reset
+add wave -noupdate /addOR8bits_tb/uut/reg_a
+add wave -noupdate /addOR8bits_tb/uut/reg_b
+add wave -noupdate /addOR8bits_tb/uut/sumOR
+add wave -noupdate /addOR8bits_tb/uut/diffOR
+add wave -noupdate /addOR8bits_tb/uut/sumORdiff
+add wave -noupdate /addOR8bits_tb/uut/input_sync
+add wave -noupdate /addOR8bits_tb/uut/hex_ones
+add wave -noupdate /addOR8bits_tb/uut/hex_tens
+add wave -noupdate /addOR8bits_tb/uut/hex_hundreds
+add wave -noupdate /addOR8bits_tb/uut/clk
+add wave -noupdate /addOR8bits_tb/uut/reset
+add wave -noupdate /addOR8bits_tb/uut/button
+add wave -noupdate /addOR8bits_tb/uut/load
+add wave -noupdate /addOR8bits_tb/uut/sel
+add wave -noupdate /addOR8bits_tb/uut/LED
+
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {50 ns} 0}
