@@ -8,7 +8,7 @@ use ieee.numeric_std.all;
 
 entity double_dabble is
   port (
-    result_padded           : in  std_logic_vector(11 downto 0); 
+    binary_in           : in  std_logic_vector(11 downto 0); 
     ones                    : out std_logic_vector(3 downto 0);
     tens                    : out std_logic_vector(3 downto 0);
     hundreds                : out std_logic_vector(3 downto 0)
@@ -18,7 +18,7 @@ end double_dabble;
 architecture beh of double_dabble  is
 
 begin
-  bcd1: process(result_padded)
+  bcd1: process(binary_in)
   -- temporary variable
   variable temp : STD_LOGIC_VECTOR (11 downto 0);
   
@@ -38,7 +38,7 @@ begin
     bcd := (others => '0');
     
     -- read input into temp variable
-    temp(11 downto 0) := result_padded;
+    temp(11 downto 0) := binary_in;
     
     -- cycle 12 times as we have 12 input bits
     -- this could be optimized, we dont need to check and add 3 for the 

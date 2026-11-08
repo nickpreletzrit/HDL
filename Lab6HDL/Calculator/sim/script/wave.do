@@ -15,21 +15,28 @@ radix define States {
 quietly WaveActivateNextPane {} 0
 
 
-add wave -noupdate /addOR8bits_tb/uut/reg_a
-add wave -noupdate /addOR8bits_tb/uut/reg_b
-add wave -noupdate /addOR8bits_tb/uut/sumOR
-add wave -noupdate /addOR8bits_tb/uut/diffOR
-add wave -noupdate /addOR8bits_tb/uut/sumORdiff
-add wave -noupdate /addOR8bits_tb/uut/input_sync
-add wave -noupdate /addOR8bits_tb/uut/hex_ones
-add wave -noupdate /addOR8bits_tb/uut/hex_tens
-add wave -noupdate /addOR8bits_tb/uut/hex_hundreds
-add wave -noupdate /addOR8bits_tb/uut/clk
-add wave -noupdate /addOR8bits_tb/uut/reset
-add wave -noupdate /addOR8bits_tb/uut/button
-add wave -noupdate /addOR8bits_tb/uut/load
-add wave -noupdate /addOR8bits_tb/uut/sel
-add wave -noupdate /addOR8bits_tb/uut/LED
+add wave -noupdate /Calculator_tb/uut/clk
+add wave -noupdate /Calculator_tb/uut/reset
+add wave -noupdate /Calculator_tb/uut/execute
+add wave -noupdate /Calculator_tb/uut/input
+add wave -noupdate /Calculator_tb/uut/op
+add wave -noupdate /Calculator_tb/uut/op_sync
+add wave -noupdate /Calculator_tb/uut/alu_op
+add wave -noupdate /Calculator_tb/uut/input_sync
+add wave -noupdate /Calculator_tb/uut/we
+add wave -noupdate /Calculator_tb/uut/address
+add wave -noupdate /Calculator_tb/uut/address_sync
+add wave -noupdate /Calculator_tb/uut/memory_out
+add wave -noupdate /Calculator_tb/uut/ALU_output
+add wave -noupdate /Calculator_tb/uut/result_sync
+add wave -noupdate /Calculator_tb/uut/result_padded
+add wave -noupdate /Calculator_tb/uut/hundreds
+add wave -noupdate /Calculator_tb/uut/tens
+add wave -noupdate /Calculator_tb/uut/ones
+add wave -noupdate /Calculator_tb/uut/bcd_2
+add wave -noupdate /Calculator_tb/uut/bcd_1
+add wave -noupdate /Calculator_tb/uut/bcd_0
+add wave -noupdate /Calculator_tb/uut/led
 
 
 TreeUpdate [SetDefaultTree]

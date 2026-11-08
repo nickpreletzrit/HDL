@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;      
+use ieee.numeric_std.all;
 
 entity FSM is 
   port (
@@ -7,14 +8,15 @@ entity FSM is
     reset             : in std_logic;
     op          	  : in std_logic_vector(1 downto 0);
     LED		          : out std_logic_vector(1 downto 0);
-	sel 			  : out std_logic_vector(1 downto 0)
+	sel 			  : out std_logic_vector(1 downto 0);
+	address 		  : out std_logic_vector(1 downto 0)
   );
 end FSM;
 
 architecture beh of FSM is
 	type state_t is (ADD, SUB, MULT, DIV);
 	signal state, next_state: state_t;
-
+	signal addy : std_logic_vector(1 downto 0);
 
 begin
 
@@ -30,7 +32,7 @@ begin
     end if;
 end process;
 
-process (state, reset, button)	-- next state logic
+process (state, reset, op)	-- next state logic
 begin
     next_state <= state;
     case state is
@@ -88,17 +90,17 @@ end process;
 process (state) 	-- output logic
 begin
     LED <= "00";
-	op <= "00";
-	sel <= "00";
+	
+	addy <= "00";
     case state is
         when ADD => 
-			LED <= "11";  sel <= "00";
+			LED <= "11";  sel <= "00"; address <= std_logic_vector(unsigned(addy) + 1);
         when SUB => 
-			LED <= "10";  sel <= "01";
+			LED <= "10";  sel <= "01"; address <= std_logic_vector(unsigned(addy) + 1);
 		when MULT => 
-			LED <= "01";  sel <= "10";
+			LED <= "01";  sel <= "10"; address <= std_logic_vector(unsigned(addy) + 1);
 		when DIV => 
-			LED <= "00";  sel <= "11";
+			LED <= "00";  sel <= "11"; address <= std_logic_vector(unsigned(addy) + 1);
     end case;
 end process;
 
