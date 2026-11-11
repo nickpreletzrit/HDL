@@ -21,6 +21,15 @@ package components is
       bcd_2         : out std_logic_vector(6 downto 0)
     );
   end component;
+  
+  component falling_edge_detector is
+	port (
+		clk      : in  std_logic;
+		reset    : in  std_logic;
+		sync_in  : in  std_logic;
+		edge_out : out std_logic
+	);
+  end component falling_edge_detector;
 
   component double_dabble is
     port (
@@ -34,9 +43,11 @@ package components is
 	port (
 		clk               : in std_logic;
 		reset             : in std_logic;
+		execute			  : in std_logic;
 		op          	  : in std_logic_vector(1 downto 0);
 		LED		          : out std_logic_vector(1 downto 0);
-		sel 			  : out std_logic_vector(1 downto 0)
+		sel 			  : out std_logic_vector(1 downto 0);
+		address			  : out std_logic_vector(1 downto 0)
 	);
   end component;
   component alu is
@@ -99,6 +110,8 @@ package components is
   
   component seven_seg is
     port (
+	  clk               : in std_logic;
+      reset             : in std_logic;
       bcd             : in std_logic_vector(3 downto 0);
       seven_seg_out   : out std_logic_vector(6 downto 0)
     );  

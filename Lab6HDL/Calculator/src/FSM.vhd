@@ -6,6 +6,7 @@ entity FSM is
   port (
     clk               : in std_logic;
     reset             : in std_logic;
+	execute			  : in std_logic;
     op          	  : in std_logic_vector(1 downto 0);
     LED		          : out std_logic_vector(1 downto 0);
 	sel 			  : out std_logic_vector(1 downto 0);
@@ -16,10 +17,16 @@ end FSM;
 architecture beh of FSM is
 	type state_t is (ADD, SUB, MULT, DIV);
 	signal state, next_state: state_t;
-	signal addy : std_logic_vector(1 downto 0);
+	signal addy : std_logic_vector(1 downto 0) := "00";
 
 begin
 
+process(execute)
+begin	
+	if(execute = '1') then
+		addy <= std_logic_vector(unsigned(addy) + 1);
+	end if;
+end process;
 
 process (clk)		-- state register
 begin
@@ -91,16 +98,16 @@ process (state) 	-- output logic
 begin
     LED <= "00";
 	
-	addy <= "00";
+	
     case state is
         when ADD => 
-			LED <= "11";  sel <= "00"; address <= std_logic_vector(unsigned(addy) + 1);
+			LED <= "11";  sel <= "00"; address <= addy;
         when SUB => 
-			LED <= "10";  sel <= "01"; address <= std_logic_vector(unsigned(addy) + 1);
+			LED <= "10";  sel <= "01"; address <= addy;
 		when MULT => 
-			LED <= "01";  sel <= "10"; address <= std_logic_vector(unsigned(addy) + 1);
+			LED <= "01";  sel <= "10"; address <= addy;
 		when DIV => 
-			LED <= "00";  sel <= "11"; address <= std_logic_vector(unsigned(addy) + 1);
+			LED <= "00";  sel <= "11"; address <= addy;
     end case;
 end process;
 

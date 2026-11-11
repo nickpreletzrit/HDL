@@ -41,44 +41,47 @@ begin
     wait for period / 2;
   end process;
 
-  stim : process
-    variable op_val : std_logic_vector(1 downto 0);
-    variable in_val : integer;
-  begin
-    wait for 2 * period;
-    reset <= '0';
-    wait for 2 * period;
-
-    for i in 0 to 5 loop
-      case i is
-        when 0 => op_val := "00"; in_val := 5;
-        when 1 => op_val := "00"; in_val := 10;
-        when 2 => op_val := "10"; in_val := 3;
-        when 3 => op_val := "01"; in_val := 50;
-        when 4 => op_val := "11"; in_val := 5;
-        when others => op_val := "10"; in_val := 10;
-      end case;
-
+    stim : process
+    -- one calculator operation: set op/input, let them settle through the
+    -- synchronizers, pulse execute, then wait for the result to propagate
+    procedure do_op (
+      constant op_val : in std_logic_vector(1 downto 0);
+      constant in_val : in integer
+    ) is
+    begin
       op    <= op_val;
       input <= std_logic_vector(to_unsigned(in_val, 8));
       wait for 4 * period;
       execute <= '1';
-      wait for 4 * period;
+      wait for 2 * period;
       execute <= '0';
-      wait for 10 * period;
-    end loop;
+      wait for 6 * period;
+    end procedure;
+  begin
+
+    wait for period / 4;
+    wait for 2 * period;
+    reset <= '0';
+    wait for 2 * period;
+
+    -- fill all four locations
+    do_op("00", 6);    -- addr 0: 0 + 6  = 6
+    do_op("00", 8);    -- addr 1: 0 + 8  = 8
+    do_op("00", 12);   -- addr 2: 0 + 12 = 12
+    do_op("00", 4);    -- addr 3: 0 + 4  = 4
+
+    -- address wraps to 0, memory now holds 6, 8, 12, 4
+    do_op("10", 3);    -- addr 0: 6  * 3 = 18
+    do_op("01", 3);    -- addr 1: 8  - 3 = 5
+    do_op("11", 4);    -- addr 2: 12 / 4 = 3
+    do_op("10", 5);    -- addr 3: 4  * 5 = 20
 
     reset <= '1';
     wait for 2 * period;
     reset <= '0';
     wait for 2 * period;
+    do_op("00", 7);
 
-    op    <= "00";
-    input <= std_logic_vector(to_unsigned(7, 8));
-    wait for 4 * period;
-    execute <= '1';
-    wait for 4 * period;
-    execute <= '0';
     wait;
   end process;
 

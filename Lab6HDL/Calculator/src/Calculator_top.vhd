@@ -4,6 +4,8 @@
 -------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
+
+library work;
 use work.components.all;
 
 entity Calculator is
@@ -24,12 +26,12 @@ architecture beh of Calculator is
   signal op_sync      : std_logic_vector(1 downto 0);
   signal alu_op       : std_logic_vector(1 downto 0);
   signal address      : std_logic_vector(1 downto 0);
-  signal address_sync : std_logic_vector(1 downto 0);
 
   signal input_sync   : std_logic_vector(7 downto 0);
   signal ALU_output   : std_logic_vector(7 downto 0);
 
   signal we     	  : std_logic;
+  signal we_falling	  : std_logic;
   signal memory_out   : std_logic_vector(7 downto 0);
   signal result_sync  : std_logic_vector(7 downto 0);
   signal result_padded : std_logic_vector(11 downto 0);
@@ -37,7 +39,6 @@ architecture beh of Calculator is
   signal ones         : std_logic_vector(3 downto 0);
   signal tens         : std_logic_vector(3 downto 0);
   signal hundreds     : std_logic_vector(3 downto 0);
-  signal thousands    : std_logic_vector(3 downto 0);
   
 begin
 
@@ -48,24 +49,27 @@ begin
       async_in => op,
       sync_out => op_sync
     );
+	
+	u_falling_edge_detect : falling_edge_detector
+    port map (
+      clk      => clk,
+      reset    => reset,
+      sync_in  => we_falling,
+      edge_out => we
+    );
 
   u_fsm : FSM
     port map (
       clk     => clk,
       reset   => reset,
       op      => op_sync,
+	  execute => we,
       LED     => led,
       sel     => alu_op,
       address => address
     );
 
-  u_addr_sync : synchronizer_2bit
-    port map (
-      clk      => clk,
-      reset    => reset,
-      async_in => address,
-      sync_out => address_sync
-    );
+  
 
   u_input_sync : synchronizer_8bit
     port map (
@@ -89,7 +93,7 @@ begin
       clk      => clk,
       reset    => reset,
       async_in => execute,
-      sync_out => we
+      sync_out => we_falling
     );
 
   u_mem : memory
@@ -97,7 +101,7 @@ begin
     port map (
       clk  => clk,
       we   => we,
-      addr => address_sync,
+      addr => address,
       din  => ALU_output,
       dout => memory_out
     );
@@ -117,12 +121,35 @@ begin
       binary_in => result_padded,
       ones      => ones,
       tens      => tens,
-      hundreds  => hundreds,
-      thousands => thousands
+      hundreds  => hundreds
     );
 
-  u_seg0 : seven_seg port map (bcd => ones,     seven_seg_out => bcd_0);
-  u_seg1 : seven_seg port map (bcd => tens,     seven_seg_out => bcd_1);
-  u_seg2 : seven_seg port map (bcd => hundreds, seven_seg_out => bcd_2);
+	 u_seg_ones : seven_seg
+    port map (
+		clk    => clk,
+		reset  => reset,
+		bcd    => ones,
+		seven_seg_out  => bcd_0
+	);  
+	
+	 u_seg_tens : seven_seg
+    port map (
+		clk    => clk,
+		reset  => reset,
+		bcd    => tens,
+		seven_seg_out  => bcd_1
+	);  
+	
+	
+	 u_seg_hundreds : seven_seg
+    port map (
+		clk    => clk,
+		reset  => reset,
+		bcd    => hundreds,
+		seven_seg_out  => bcd_2
+	);  
+	
+	
+	
 
 end beh;

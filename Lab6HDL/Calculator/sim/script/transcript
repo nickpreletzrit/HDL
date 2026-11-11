@@ -13,7 +13,17 @@
 # //
 # do sim.do
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,10 +31,10 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity alu
 # -- Compiling architecture beh of alu
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -32,20 +42,20 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity FSM
 # -- Compiling architecture beh of FSM
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity seven_seg
 # -- Compiling architecture beh of seven_seg
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -53,10 +63,10 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity memory
 # -- Compiling architecture beh of memory
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -64,52 +74,2685 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity double_dabble
 # -- Compiling architecture beh of double_dabble
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity synchronizer_8bit
 # -- Compiling architecture beh of synchronizer_8bit
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity synchronizer_2bit
 # -- Compiling architecture beh of synchronizer_2bit
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity synchronizer_1bit
 # -- Compiling architecture beh of synchronizer_1bit
-# End time: 18:08:52 on Nov 08,2026, Elapsed time: 0:00:00
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 18:08:52 on Nov 08,2026
+# Start time: 16:40:02 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:02 on Nov 11,2026
 # vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# ** Error: (vcom-11) Could not find work.components.
-# ** Error (suppressible): ../../src/Calculator_top.vhd(7): (vcom-1195) Cannot find expanded name "work.components".
-# ** Error: ../../src/Calculator_top.vhd(7): Unknown expanded name.
-# ** Note: ../../src/Calculator_top.vhd(9): VHDL Compiler exiting
-# End time: 18:08:53 on Nov 08,2026, Elapsed time: 0:00:01
-# Errors: 3, Warnings: 0
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# ** Error: ../../src/Calculator_top.vhd(124): near ")": syntax error
+# ** Error: ../../src/Calculator_top.vhd(126): Statement cannot be labeled.
+# ** Note: ../../src/Calculator_top.vhd(130): VHDL Compiler exiting
+# End time: 16:40:02 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
 # ** Error: C:/Software/ModelSim/win64/vcom failed.
-# Error in macro ./sim.do line 11
+# Error in macro ./sim.do line 14
 # C:/Software/ModelSim/win64/vcom failed.
 #     while executing
 # "vcom -93 -work work ../../src/Calculator_top.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 16:40:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:23 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:40:23 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:23 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 16:40:23 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:40:23 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 16:40:23 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.addOR8bits_tb 
+# Start time: 16:40:23 on Nov 11,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit addOR8bits_tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 18
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:03 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 16:41:03 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:04 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 16:41:04 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:04 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 16:41:04 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:04 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:41:04 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:04 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 16:41:04 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:41:04 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 16:41:04 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 16:40:23 on Nov 11,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): ../../src/Calculator_top.vhd(126): (vopt-1130) Port "clk" of entity "seven_seg" is not in the component being instantiated.
+# ** Error (suppressible): ../../src/Calculator_top.vhd(126): (vopt-1130) Port "reset" of entity "seven_seg" is not in the component being instantiated.
+# ** Error (suppressible): ../../src/Calculator_top.vhd(127): (vopt-1130) Port "clk" of entity "seven_seg" is not in the component being instantiated.
+# ** Error (suppressible): ../../src/Calculator_top.vhd(127): (vopt-1130) Port "reset" of entity "seven_seg" is not in the component being instantiated.
+# ** Error (suppressible): ../../src/Calculator_top.vhd(128): (vopt-1130) Port "clk" of entity "seven_seg" is not in the component being instantiated.
+# ** Error (suppressible): ../../src/Calculator_top.vhd(128): (vopt-1130) Port "reset" of entity "seven_seg" is not in the component being instantiated.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 18
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 16:44:11 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:11 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 16:44:12 on Nov 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:12 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 16:44:12 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:12 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:44:12 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:44:12 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# ** Error: ../../src/Calculator_top.vhd(127): near "(": (vcom-1576) expecting MAP.
+# ** Error: ../../src/Calculator_top.vhd(129): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(129): near "in": syntax error
+# ** Error: ../../src/Calculator_top.vhd(130): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(130): near "in": syntax error
+# ** Error: ../../src/Calculator_top.vhd(131): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(131): near "out": syntax error
+# ** Error: ../../src/Calculator_top.vhd(134): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(135): near "(": (vcom-1576) expecting MAP.
+# ** Error: ../../src/Calculator_top.vhd(137): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(137): near "in": syntax error
+# ** Error: ../../src/Calculator_top.vhd(138): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(138): near "in": syntax error
+# ** Error: ../../src/Calculator_top.vhd(139): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(139): near "out": syntax error
+# ** Error: ../../src/Calculator_top.vhd(142): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(143): near "(": (vcom-1576) expecting MAP.
+# ** Error: ../../src/Calculator_top.vhd(145): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(145): near "in": syntax error
+# ** Error: ../../src/Calculator_top.vhd(146): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(146): near "in": syntax error
+# ** Error: ../../src/Calculator_top.vhd(147): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(147): near "out": syntax error
+# ** Note: ../../src/Calculator_top.vhd(152): VHDL Compiler exiting
+# End time: 16:44:12 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 23, Warnings: 0
+# ** Error: C:/Software/ModelSim/win64/vcom failed.
+# Error in macro ./sim.do line 14
+# C:/Software/ModelSim/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/Calculator_top.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:37 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:46:37 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:37 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 16:46:37 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:37 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:46:38 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# ** Error: ../../src/Calculator_top.vhd(127): near "(": (vcom-1576) expecting MAP.
+# ** Error: ../../src/Calculator_top.vhd(134): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(135): near "(": (vcom-1576) expecting MAP.
+# ** Error: ../../src/Calculator_top.vhd(143): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(144): near "(": (vcom-1576) expecting MAP.
+# ** Note: ../../src/Calculator_top.vhd(154): VHDL Compiler exiting
+# End time: 16:46:38 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/Software/ModelSim/win64/vcom failed.
+# Error in macro ./sim.do line 14
+# C:/Software/ModelSim/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/Calculator_top.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 16:47:00 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:00 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 16:47:01 on Nov 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:01 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:47:01 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:01 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# ** Error: ../../src/Calculator_top.vhd(131): near "seven_seg_out": (vcom-1576) expecting ',' or ')'.
+# ** Error: ../../src/Calculator_top.vhd(134): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(139): near "seven_seg_out": (vcom-1576) expecting ',' or ')'.
+# ** Error: ../../src/Calculator_top.vhd(143): Statement cannot be labeled.
+# ** Error: ../../src/Calculator_top.vhd(148): near "seven_seg_out": (vcom-1576) expecting ',' or ')'.
+# ** Note: ../../src/Calculator_top.vhd(154): VHDL Compiler exiting
+# End time: 16:47:01 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/Software/ModelSim/win64/vcom failed.
+# Error in macro ./sim.do line 14
+# C:/Software/ModelSim/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/Calculator_top.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:16 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 16:47:16 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:16 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:47:17 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 16:47:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 16:40:23 on Nov 11,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "FSM(beh)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlftje3t0i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftje3t0i
+# ** Error: (vish-4014) No objects found matching '/Calculator_tb/uut/address_sync'.
+# Executing ONERROR command at macro ./wave.do line 28
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 660 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 660 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 680 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 840 ns  Iteration: 1  Instance: /calculator_tb/uut/u_mem
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2240 ns  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:03:10 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:03:10 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:03:10 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:03:10 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:03:10 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# ** Error: ../../src/FSM.vhd(26): near "=": syntax error
+# End time: 17:03:10 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Software/ModelSim/win64/vcom failed.
+# Error in macro ./sim.do line 6
+# C:/Software/ModelSim/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/FSM.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:03:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:03:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:03:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:03:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:03:22 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# ** Error: ../../src/FSM.vhd(27): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: ../../src/FSM.vhd(27): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: ../../src/FSM.vhd(114): VHDL Compiler exiting
+# End time: 17:03:22 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Software/ModelSim/win64/vcom failed.
+# Error in macro ./sim.do line 6
+# C:/Software/ModelSim/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/FSM.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:04:14 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:14 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# ** Error: ../../src/Calculator_top.vhd(67): near "LED": (vcom-1576) expecting ',' or ')'.
+# ** Error: ../../src/Calculator_top.vhd(74): Statement cannot be labeled.
+# ** Note: ../../src/Calculator_top.vhd(155): VHDL Compiler exiting
+# End time: 17:04:15 on Nov 11,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/Software/ModelSim/win64/vcom failed.
+# Error in macro ./sim.do line 14
+# C:/Software/ModelSim/win64/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/Calculator_top.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:51 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:04:51 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:52 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:04:52 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:52 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:04:52 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:04:52 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:04:52 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:04:52 on Nov 11,2026, Elapsed time: 0:24:29
+# Errors: 30, Warnings: 49
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 17:04:52 on Nov 11,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "FSM(beh)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlft6xkmvx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6xkmvx
+# ** Error: (vish-4014) No objects found matching '/Calculator_tb/uut/address_sync'.
+# Executing ONERROR command at macro ./wave.do line 28
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2240 ns  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:08:53 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:08:53 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:08:54 on Nov 11,2026, Elapsed time: 0:04:02
+# Errors: 14, Warnings: 34
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 17:08:54 on Nov 11,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlfti594my".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfti594my
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2240 ns  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2260 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:10:56 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:10:56 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:10:57 on Nov 11,2026, Elapsed time: 0:02:03
+# Errors: 7, Warnings: 34
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 17:10:57 on Nov 11,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlftmj03w0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmj03w0
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2240 ns  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2260 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:44 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:27:44 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:44 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:27:44 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:44 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:27:44 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:44 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:27:45 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:27:45 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:46 on Nov 11,2026, Elapsed time: 0:16:49
+# Errors: 149, Warnings: 34
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 17:27:46 on Nov 11,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlftra1iak".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftra1iak
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2240 ns  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2260 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:29:59 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:29:59 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:00 on Nov 11,2026, Elapsed time: 0:02:14
+# Errors: 7, Warnings: 34
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 17:30:00 on Nov 11,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlftkibi3z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkibi3z
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2 us  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2020 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:33:46 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:33:46 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:33:47 on Nov 11,2026, Elapsed time: 0:03:47
+# Errors: 72, Warnings: 34
+# vsim -voptargs="+acc" work.Calculator_tb 
+# Start time: 17:33:47 on Nov 11,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.calculator_tb(arch)#1
+# Loading work.components
+# Loading work.calculator(beh)#1
+# Loading work.synchronizer_2bit(beh)#1
+# Loading work.falling_edge_detector(beh)#1
+# Loading work.fsm(beh)#1
+# Loading work.synchronizer_8bit(beh)#1
+# Loading work.alu(beh)#1
+# Loading work.synchronizer_1bit(beh)#1
+# Loading work.memory(beh)#1
+# Loading work.double_dabble(beh)#1
+# Loading work.seven_seg(beh)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: njp4108  Hostname: GOL-1360-03  ProcessID: 14332
+#           Attempting to use alternate WLF file "./wlftswtcgq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftswtcgq
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /calculator_tb/uut/u_dd
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 0 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 100 ns  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 780 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 1100 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 1560 ns  Iteration: 2  Instance: /calculator_tb/uut/u_alu
+# ** Error: DIV, MOD, or REM by zero
+#    Time: 2 us  Iteration: 3  Instance: /calculator_tb/uut/u_alu
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is njp4108@GOL-1360-03.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package components
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture beh of alu
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture beh of FSM
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/seven_seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg
+# -- Compiling architecture beh of seven_seg
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture beh of memory
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/double_dabble.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity double_dabble
+# -- Compiling architecture beh of double_dabble
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:41 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_8bit
+# -- Compiling architecture beh of synchronizer_8bit
+# End time: 17:40:41 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:42 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_2bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_2bit
+# -- Compiling architecture beh of synchronizer_2bit
+# End time: 17:40:42 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:42 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/synchronizer_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer_1bit
+# -- Compiling architecture beh of synchronizer_1bit
+# End time: 17:40:42 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:42 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/falling_edge_detector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity falling_edge_detector
+# -- Compiling architecture beh of falling_edge_detector
+# End time: 17:40:42 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:42 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../../src/Calculator_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package components
+# -- Compiling entity Calculator
+# -- Compiling architecture beh of Calculator
+# End time: 17:40:42 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:40:42 on Nov 11,2026
+# vcom -reportprogress 300 -93 -work work ../src/Calculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Calculator_tb
+# -- Compiling architecture arch of Calculator_tb
+# End time: 17:40:42 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
