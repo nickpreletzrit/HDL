@@ -1,0 +1,7 @@
+
+State Machine - |addOR8bits_top|FSM:U_FSM|state
+Name state.DIFF state.SUM state.INPUT_B state.INPUT_A 
+state.INPUT_A 0 0 0 0 
+state.INPUT_B 0 0 1 1 
+state.SUM 0 1 0 1 
+state.DIFF 1 0 0 1 

@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_hundreds[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_tens[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_ones[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "button",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -13.070
+TNS   : -404.533
+
+Type  : Slow 1100mV 85C Model Setup 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : -0.916
+TNS   : -2.527
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.225
+TNS   : -61.785
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : -0.394
+TNS   : -2.035
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -13.463
+TNS   : -406.407
+
+Type  : Slow 1100mV 0C Model Setup 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : -0.869
+TNS   : -2.393
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.225
+TNS   : -64.804
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : -0.394
+TNS   : -2.037
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -6.467
+TNS   : -205.082
+
+Type  : Fast 1100mV 85C Model Setup 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : -0.333
+TNS   : -0.665
+
+Type  : Fast 1100mV 85C Model Hold 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -1.702
+TNS   : -21.405
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -6.085
+TNS   : -183.392
+
+Type  : Fast 1100mV 0C Model Setup 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : -0.250
+TNS   : -0.499
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : 0.120
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -1.702
+TNS   : -21.356
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'falling_edge_detector:u_falling_edge_detect|edge_out'
+Slack : 0.163
+TNS   : 0.000
+
+------------------------------------------------------------

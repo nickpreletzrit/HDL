@@ -1,0 +1,7 @@
+
+State Machine - |Calculator_top|FSM:u_fsm|state
+Name state.DIV state.MULT state.SUB state.ADD 
+state.ADD 0 0 0 0 
+state.SUB 0 0 1 1 
+state.MULT 0 1 0 1 
+state.DIV 1 0 0 1 

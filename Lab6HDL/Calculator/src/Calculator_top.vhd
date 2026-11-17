@@ -8,7 +8,7 @@ use ieee.std_logic_1164.all;
 library work;
 use work.components.all;
 
-entity Calculator is
+entity Calculator_top is
   port (
     clk     : in  std_logic;
     reset   : in  std_logic;
@@ -20,9 +20,9 @@ entity Calculator is
     bcd_1   : out std_logic_vector(6 downto 0);
     bcd_2   : out std_logic_vector(6 downto 0)
   );
-end Calculator;
+end Calculator_top;
 
-architecture beh of Calculator is
+architecture beh of Calculator_top is
   signal op_sync      : std_logic_vector(1 downto 0);
   signal alu_op       : std_logic_vector(1 downto 0);
   signal address      : std_logic_vector(1 downto 0);

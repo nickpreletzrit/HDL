@@ -40,6 +40,8 @@ begin
     clk <= not clk;
     wait for period / 2;
   end process;
+  
+  
 
     stim : process
     -- one calculator operation: set op/input, let them settle through the
